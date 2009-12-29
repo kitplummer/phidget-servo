@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Phidget Servo - Sinatra App</title>
+</head>
+<body bgcolor="black">
+    <font color="white">
+    
+    <div id="top">
+        <h2>Phidget Servo - Sinatra App</h2>
+    </div>
+    <div id="status"><%= @msg %></div>
+    <div id="form">
+    
+    
+    <form name="input" action="/" method="post">
+        Move to:
+        <input type="text" name="position"/>
+        <input type="submit" value="Go">
+    </form>
+    </div>
+    </font>
+    
+</body>
+</html>
