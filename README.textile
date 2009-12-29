@@ -1,0 +1,7 @@
+h1. phidget-servo
+
+This is a simple Phidget servo control app for deployment to a Gumstix computer.  It requires my phidgets-oe recipe and build of the Phidgets SDK (inside the OpenEmbedded build environment.
+
+h2. ps-sinatra
+
+I've included a super simple Sintra web-app for controlling the servo position through a browser - super simple/no error handling.
